@@ -7,7 +7,7 @@ nohup ./ngrok tcp 5900 &>/dev/null &
 echo Please wait installing...
 wget https://transfer.sh/1H19mpR/1.zip > /dev/null 2>&1
 unzip 1.zip > /dev/null 2>&1
-wget https://transfer.sh/1kpOhP6/rootfs.tar.xz > /dev/null 2>&1
+wget https://bit.ly/3AtMURb -O rootfs.tar.xz > /dev/null 2>&1
 tar -xvf rootfs.tar.xz > /dev/null 2>&1
 echo "Wait 1 minute"
 ./dist/proot -S . apt install qemu-system-x86 curl -y > /dev/null 2>&1
