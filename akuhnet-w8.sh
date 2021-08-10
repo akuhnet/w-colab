@@ -10,12 +10,11 @@ wget https://transfer.sh/1kpOhP6/rootfs.tar.xz > /dev/null 2>&1
 tar -xvf rootfs.tar.xz > /dev/null 2>&1
 echo "Wait 1 minute"
 ./dist/proot -S . apt install qemu-system-x86 curl -y > /dev/null 2>&1
-echo Download Windows7
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1F1hQ16_NUl_TppK8xxuAiAMynNnlCZL1' -O w7.qcow2
-echo "Windows 7 Google Colab"
+echo Download Windows8
+wget https://bit.ly/akuhnetw8 -O w8.qcow2
+echo "Windows 8.1 Google Colab"
 echo Your VNC Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "Ctrl+C To Copy"
 echo "Keep Colab Tab Open, Maximum Time 12h"
-echo If this works help akuh.net grow up by clicking 1 ad, thank you so much
-./dist/proot -S . qemu-system-x86_64 -vnc :0 -hda w7.qcow2  -smp cores=2  -m 8192M -machine usb=on -device usb-tablet > /dev/null 2>&1
+./dist/proot -S . qemu-system-x86_64 -vnc :0 -hda w8.qcow2  -smp cores=2  -m 8192M -machine usb=on -device usb-tablet > /dev/null 2>&1
