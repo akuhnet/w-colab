@@ -11,7 +11,7 @@ tar -xvf rootfs.tar.xz > /dev/null 2>&1
 echo "Wait 1 minute"
 ./dist/proot -S . apt install qemu-system-x86 curl -y > /dev/null 2>&1
 echo Download Windows7
-wget https://transfer.sh/w7.qcow2 -O w7.qcow2
+wget https://transfer.sh/1yr7AGF/w7.qcow2 -O w7.qcow2
 echo "Windows 7 Google Colab"
 echo Your VNC Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
