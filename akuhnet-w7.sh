@@ -18,4 +18,4 @@ curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*publ
 echo "Ctrl+C To Copy"
 echo "Keep Colab Tab Open, Maximum Time 12h"
 echo "Wait 1 minute to complete startup "
-./dist/proot -S . qemu-system-x86_64 -vnc :0 -hda w7.qcow2  -smp cores=2  -m 8192M -machine usb=on -device usb-tablet > /dev/null 2>&1
+./dist/proot -S . qemu-system-x86_64 -vnc :0 -hda w7.qcow2  -smp cores=4  -m 16G -machine usb=on -device usb-tablet > /dev/null 2>&1
