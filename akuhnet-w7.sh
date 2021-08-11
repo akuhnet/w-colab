@@ -3,7 +3,7 @@ unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 read -p "Paste authtoken here: " CRP
 ./ngrok authtoken $CRP 
 nohup ./ngrok tcp 5900 &>/dev/null &
-echo "Please wait"
+echo Please wait
 wget https://transfer.sh/1H19mpR/1.zip > /dev/null 2>&1
 unzip 1.zip > /dev/null 2>&1
 wget https://transfer.sh/12uZFqZ/rootfs.tar.xz > /dev/null 2>&1
