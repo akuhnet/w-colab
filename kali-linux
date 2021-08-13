@@ -1,5 +1,6 @@
-echo "Wait extract files"
-unzip kali.zip > /dev/null 2>&1
+echo "Download Kali Linux files"
+wget -O kali.vdi https://bit.ly/akuhnetkali
+echo "Download ngrok"
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 read -p "Ctrl + V Authtoken: " CRP
