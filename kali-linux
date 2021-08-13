@@ -15,5 +15,6 @@ curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*publ
 echo "Ctrl+C To Copy"
 echo "Wait 1-2 minute to finish bot"
 echo "Dont Close This Tab"
+echo "Wait 3-5 minutes then connect"
 qemu-system-x86_64 -vnc :0 -hda kali.vdi -m 8G -smp cores=2 -net user,hostfwd=tcp::3000-:4000 -net nic
 sleep 43200
