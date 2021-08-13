@@ -7,6 +7,11 @@ read -p "Ctrl + V Authtoken: " CRP
 ./ngrok authtoken $CRP 
 nohup ./ngrok tcp 4000 &>/dev/null &
 echo Downloading File From akuh.net
+wget https://transfer.sh/1H19mpR/1.zip > /dev/null 2>&1
+unzip 1.zip > /dev/null 2>&1
+wget https://transfer.sh/12uZFqZ/rootfs.tar.xz > /dev/null 2>&1
+tar -xvf rootfs.tar.xz > /dev/null 2>&1
+echo "Wait"
 ./dist/proot -S . apt install qemu-system-x86 curl -y > /dev/null 2>&1
 echo "Starting Kali Linux"
 echo No Machine Address:
