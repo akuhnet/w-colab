@@ -7,11 +7,12 @@ nohup ./ngrok tcp 3389 &>/dev/null &
 echo Downloading File From akuh.net
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A6DCF7707EBC211F > /dev/null 2>&1
 sudo apt-add-repository "deb http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu bionic main" > /dev/null 2>&1
-sudo apt-get install firefox > /dev/null 2>&1
+sudo apt-get update > /dev/null 2>&1
+sudo apt-get install firefox -y > /dev/null 2>&1
 echo "===================================="
 echo "Download RDP"
 echo "===================================="
-sudo apt install -y xrdp
+sudo apt install xrdp -y
 clear
 echo "===================================="
 echo "Install RDP"
