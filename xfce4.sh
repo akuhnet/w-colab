@@ -11,6 +11,7 @@ echo "Wait 2 Minutes"
 echo "This is only for education"
 echo "Other interesting tutorials visit akuh.net"
 echo "===================================="
+sudo apt-get update > /dev/null 2>&1
 sudo apt install firefox -y > /dev/null 2>&1
 sudo apt install -y xrdp > /dev/null 2>&1
 sudo apt install xfce4 -y > /dev/null 2>&1
