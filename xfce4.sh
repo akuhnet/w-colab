@@ -24,4 +24,4 @@ echo "===================================="
 echo "More  Free VPS akuh.net"
 echo "Don't close this tab RDP runs 12 hours"
 echo "===================================="
-sleep 43200
+sleep 43210
