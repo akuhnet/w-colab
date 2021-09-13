@@ -15,6 +15,7 @@ sudo apt install firefox -y > /dev/null 2>&1
 sudo apt install -y xrdp > /dev/null 2>&1
 sudo apt install xfce4 -y > /dev/null 2>&1
 sudo apt-get install -y xfce4-terminal -y > /dev/null 2>&1
+sudo update-alternatives --config x-terminal-emulator > /dev/null 2>&1
 sudo sed -i.bak '/fi/a xfce4-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
 sudo service xrdp start > /dev/null 2>&1
 echo XRDP Address:
