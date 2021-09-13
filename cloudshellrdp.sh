@@ -1,23 +1,22 @@
 echo "Download ngrok"
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
-unzip ngrok-stable-linux-amd64.zip.1 > /dev/null 2>&1
 read -p "Ctrl + V Authtoken: " CRP 
 ./ngrok authtoken $CRP 
-nohup ./ngrok tcp 3389 &>/dev/null &
+nohup ./ngrok tcp 3389 & > /dev/null 2>&1
 echo Downloading File From akuh.net
-echo "===================================="
-echo "Install Firefox"
-echo "===================================="
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A6DCF7707EBC211F > /dev/null 2>&1
 sudo apt-add-repository "deb http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu bionic main" > /dev/null 2>&1
 sudo apt-get install firefox > /dev/null 2>&1
 echo "===================================="
-echo "Install RDP"
+echo "Download RDP"
 echo "===================================="
 sudo apt install -y xrdp
-sudo apt install xfce4 -y
-sudo apt-get install -y xfce4-terminal
+echo "===================================="
+echo "Install RDP"
+echo "===================================="
+sudo apt install xfce4 -y > /dev/null 2>&1
+sudo apt-get install -y xfce4-terminal > /dev/null 2>&1
 sudo sed -i.bak '/fi/a xfce4-session \n' /etc/xrdp/startwm.sh
 sudo service xrdp start
 clear
