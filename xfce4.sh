@@ -6,7 +6,6 @@ read -p "Ctrl + V Authtoken: " CRP
 ./ngrok authtoken $CRP 
 nohup ./ngrok tcp 3389 &>/dev/null &
 echo Downloading File From akuh.net
-sudo apt update && apt upgrade -y > /dev/null 2>&1
 sudo apt install firefox -y > /dev/null 2>&1
 sudo apt install -y xrdp > /dev/null 2>&1
 sudo apt install xfce4 -y > /dev/null 2>&1
