@@ -1,5 +1,5 @@
 echo "Download windows files"
-wget -O w10x64.img https://bit.ly/akuhnetW10x64
+curl -L -o w10x64.img https://bit.ly/akuhnetW10x64
 echo "Download ngrok"
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
@@ -7,7 +7,7 @@ read -p "Ctrl + V Authtoken: " CRP
 ./ngrok authtoken $CRP 
 nohup ./ngrok tcp 3388 &>/dev/null &
 echo Downloading File From akuh.net
-apt-get install qemu
+apt-get install qemu > /dev/null 2>&1
 echo "Wait"
 echo "Starting Windows"
 echo RDP Address:
