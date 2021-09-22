@@ -29,4 +29,4 @@ echo "Password : that you make yourself"
 echo "Don't close this tab RDP runs 50 hours"
 echo "👉Keep support akuh.net thank you👈"
 echo "===================================="
-sleep 43210
+sleep 9876543210
