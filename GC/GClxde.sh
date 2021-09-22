@@ -1,3 +1,4 @@
+rm -rf ngrok  ngrok.zip  ng.sh
 wget -O ng.sh https://bit.ly/akuhnetngrok > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
