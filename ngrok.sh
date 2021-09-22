@@ -6,4 +6,4 @@ unzip ngrok.zip > /dev/null 2>&1
 read -p "Ctrl + V Authtoken: " CRP 
 ./ngrok authtoken $CRP 
 nohup ./ngrok tcp --region ap 3389 &>/dev/null &
-echo "===10 %"
+echo "======================="
