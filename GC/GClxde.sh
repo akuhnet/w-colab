@@ -5,11 +5,10 @@ echo "================================"
 echo "Wait Downloading file 3-4 minutes"
 echo "More free vps visit 👉akuh.net👈"
 echo "================================"
-sudo apt-get install -y lxde
+sudo apt-get install lxde -y
 clear
 echo "=============40%"
 sudo apt install -y xrdp > /dev/null 2>&1
-sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
 echo "===============60%"
 echo "================"
 echo "Install Brave"
@@ -20,6 +19,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo apt update > /dev/null 2>&1
 sudo apt install brave-browser -y > /dev/null 2>&1
 echo "===================80%"
+sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
 sudo service xrdp start > /dev/null 2>&1
 echo "=======================100%"
 echo XRDP Address:
