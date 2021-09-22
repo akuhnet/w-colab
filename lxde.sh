@@ -1,7 +1,10 @@
 wget -O ng.sh https://bit.ly/akuhnetngrok > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
-echo Downloading File From akuh.net
+echo "================================"
+echo Wait Downloading file
+echo More free vps visit akuh.net
+echo "================================"
 sudo apt-get install lxde > /dev/null 2>&1
 echo "===========40%"
 sudo apt install -y xrdp > /dev/null 2>&1
