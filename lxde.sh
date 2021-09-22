@@ -2,8 +2,8 @@ wget -O ng.sh https://bit.ly/akuhnetngrok > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 echo "================================"
-echo Wait Downloading file
-echo More free vps visit akuh.net
+echo "Wait Downloading file"
+echo "More free vps visit 👉akuh.net👈"
 echo "================================"
 sudo apt-get install lxde > /dev/null 2>&1
 echo "===========40%"
@@ -24,8 +24,7 @@ echo "=======================100%"
 echo XRDP Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "===================================="
-echo "More  Free VPS akuh.net"
 echo "Don't close this tab RDP runs 12 hours"
-echo "Keep support akuh.net thank you"
+echo "👉Keep support akuh.net thank you👈"
 echo "===================================="
 sleep 43210
