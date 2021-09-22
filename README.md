@@ -5,6 +5,7 @@ Close tab colab rdp keep running 12 hours
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=16D400&size=25&width=770&lines=Free+RDP+Google+Colab)](https://git.io/typing-svg)
 - [Windows](https://www.akuh.net/2021/08/free-rdp-colab.html)
 - [LXDE](https://www.akuh.net/2021/09/lxde-desktop-on-google.html)
+- [XFCE4](https://colab.research.google.com/github/akuhnet/w-colab/blob/main/xrdp.ipynb)
 
 
 ###
