@@ -2,7 +2,7 @@ wget -O ng.sh https://bit.ly/akuhnetngrok > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 echo "================================"
-echo "Wait Downloading file"
+echo "Wait Downloading file 3-4 minutes"
 echo "More free vps visit 👉akuh.net👈"
 echo "================================"
 sudo apt-get install lxde > /dev/null 2>&1
