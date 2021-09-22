@@ -1,6 +1,3 @@
-wget -O ngrok.sh https://bit.ly/akuhnetngrok > /dev/null 2>&1
-chmod +x ngrok.sh
-./ngrok.sh
 echo Downloading File From akuh.net
 sudo apt-get install lxde > /dev/null 2>&1
 echo "===========40%"
