@@ -27,4 +27,4 @@ echo "===================================="
 echo "Close this tab RDP still runs 12 hours"
 echo "👉Keep support akuh.net thank you👈"
 echo "===================================="
-sleep 43210
+sleep 543210
