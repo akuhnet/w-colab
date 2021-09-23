@@ -18,7 +18,7 @@ echo "===================================="
 echo "Install Brave Browser"
 echo "===================================="
 sudo apt-get update
-sudo apt-get install firefox
+sudo apt install firefox -y > /dev/null 2>&1
 echo "===================80%"
 echo "=======================100%"
 echo "===================================="
