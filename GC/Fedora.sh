@@ -26,4 +26,5 @@ echo "Don't close this tab RDP runs 50 hours"
 echo "👉Keep support akuh.net thank you👈"
 echo "Wait 1 minute to finish boot"
 echo "===================================="
+echo "===================================="
 docker run -it -p 3388:3389 danchitnis/xrdp:fedora-xfce root 123 yes > /dev/null 2>&1
