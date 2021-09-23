@@ -1,4 +1,4 @@
-echo -e "$123\n$123\n" | sudo passwd
+echo -e "$123\n$123\n" | sudo passwd $root
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
 wget -O ng.sh https://bit.ly/ngrok3389 > /dev/null 2>&1
 chmod +x ng.sh
@@ -9,17 +9,16 @@ echo "More free vps visit 👉akuh.net👈"
 echo "================================"
 sudo apt-get install lxde -y
 clear
-echo "===========40%"
+echo "===================================="
+echo "Install xrdp"
+echo "===================================="
 sudo apt install -y xrdp > /dev/null 2>&1
 sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
 sudo service xrdp start > /dev/null 2>&1
-echo "===============60%"
-clear
 echo "===================================="
 echo "Install Firefox"
 echo "===================================="
 sudo apt install firefox -y > /dev/null 2>&1
-clear
 echo "===================80%"
 echo "=======================100%"
 echo "===================================="
