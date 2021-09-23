@@ -1,6 +1,3 @@
-echo "===================================="
-echo "Install Ngrok"
-echo "===================================="
 sudo su
 echo -e "$akuhnet\n$akuhnet\n" | passwd $root
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
