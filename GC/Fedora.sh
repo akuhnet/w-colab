@@ -1,4 +1,4 @@
-echo -e "$akuhnet\n$akuhnet\n" | passwd $root
+echo -e "$akuhnet\n$akuhnet\n" | passwd
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
 wget -O ng.sh https://bit.ly/GCngrok > /dev/null 2>&1
 chmod +x ng.sh
