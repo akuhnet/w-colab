@@ -19,6 +19,7 @@ echo "Start RDP"
 echo "===================================="
 sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh
 sudo service xrdp start > /dev/null 2>&1
+usermod -G xrdp root
 echo "===================================="
 echo "Username : root"
 echo "Username : 123"
