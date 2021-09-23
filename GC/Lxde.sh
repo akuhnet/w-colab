@@ -31,4 +31,4 @@ echo "Keep support akuh.net thank you"
 echo "Wait 1 minute to finish boot"
 echo "===================================="
 echo "===================================="
-docker run -p 3388:3389 dorowu/ubuntu-desktop-lxde-vnc
+docker run -p 6080:80 -e USER=root -e PASSWORD=123 -v /dev/shm:/dev/shm dorowu/ubuntu-desktop-lxde-vnc
