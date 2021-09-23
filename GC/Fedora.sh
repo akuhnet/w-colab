@@ -21,7 +21,7 @@ sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh
 sudo service xrdp start > /dev/null 2>&1
 echo "===================================="
 echo "Username : root"
-echo "Username : 123"
+echo "Password : 123"
 echo "RDP Address:"
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "===================================="
