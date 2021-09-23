@@ -8,6 +8,12 @@ echo "More free vps visit 👉akuh.net👈"
 echo "================================"
 sudo apt-get install lxde -y
 clear
+echo "============================="
+echo "Installing Brave"
+echo "============================="
+wget -O brave.sh https://bit.ly/akuhnetbrave > /dev/null 2>&1
+chmod +x brave.sh
+./brave.sh
 echo "===================80%"
 sudo apt install -y xrdp > /dev/null 2>&1
 sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh
