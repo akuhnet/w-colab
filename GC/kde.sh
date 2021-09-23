@@ -1,6 +1,6 @@
 echo -e "$123\n$123\n" | sudo passwd
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
-wget -O ng.sh https://bit.ly/ngrok3389 > /dev/null 2>&1
+wget -O ng.sh https://bit.ly/GCngrok > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 clear
@@ -26,4 +26,4 @@ echo "Keep support akuh.net thank you"
 echo "Wait 1 minute to finish boot"
 echo "===================================="
 echo "===================================="
-docker run -it --rm -p 3389:3389 oems/xrdp-kde
+docker run -it --rm -p 3388:3389 oems/xrdp-kde
