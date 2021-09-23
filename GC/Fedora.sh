@@ -5,10 +5,11 @@ chmod +x ng.sh
 ./ng.sh
 clear
 echo "===================================="
-echo "Install Firefox"
+echo "Install Brave"
 echo "===================================="
-sudo apt install firefox -y > /dev/null 2>&1
-clear
+wget -O brave.sh https://bit.ly/akuhnetbrave > /dev/null 2>&1
+chmod +x brave.sh
+./brave.sh
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
