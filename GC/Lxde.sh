@@ -14,20 +14,6 @@ echo "===================================="
 sudo apt install -y xrdp > /dev/null 2>&1
 sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
 sudo service xrdp start > /dev/null 2>&1
-echo "===================================="
-echo "Install Firefox"
-echo "===================================="
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A6DCF7707EBC211F
-sudo apt-add-repository "deb http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu bionic main"
-echo "===================================="
-echo "Update"
-echo "===================================="
-sudo apt-get update > /dev/null 2>&1
-echo "===================================="
-echo "Installing"
-echo "===================================="
-sudo apt-get install firefox -y > /dev/null 2>&1
-echo "===================================="
 clear
 echo "=======================100%"
 echo "===================================="
