@@ -19,9 +19,15 @@ echo "Install Firefox"
 echo "===================================="
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A6DCF7707EBC211F
 sudo apt-add-repository "deb http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu bionic main"
+echo "===================================="
+echo "Update"
+echo "===================================="
 sudo apt-get update > /dev/null 2>&1
-sudo apt-get install firefox > /dev/null 2>&1
-echo "===================80%"
+echo "===================================="
+echo "Installing"
+echo "===================================="
+sudo apt-get install firefox -y > /dev/null 2>&1
+echo "===================================="
 clear
 echo "=======================100%"
 echo "===================================="
