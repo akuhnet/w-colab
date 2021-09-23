@@ -15,10 +15,11 @@ sudo apt install -y xrdp > /dev/null 2>&1
 sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
 sudo service xrdp start > /dev/null 2>&1
 echo "===================================="
-echo "Install Brave Browser"
+echo "Install Firefox"
 echo "===================================="
-sudo apt-get update > /dev/null 2>&1
-sudo apt install firefox -y > /dev/null 2>&1
+wget -O ~/FirefoxSetup.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64"
+sudo tar xjf ~/FirefoxSetup.tar.bz2 -C /opt/
+sudo ln -s /opt/firefox/firefox /usr/lib/firefox/firefox
 echo "===================80%"
 clear
 echo "=======================100%"
