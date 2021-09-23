@@ -1,4 +1,4 @@
-docker pull danchitnis/xrdp
+docker pull danchitnis/xrdp:fedora-xfce
 clear
 echo -e "$123\n$123\n" | sudo passwd
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
