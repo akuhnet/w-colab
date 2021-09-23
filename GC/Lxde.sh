@@ -16,7 +16,7 @@ clear
 echo "===================================="
 echo "Start RDP"
 echo "===================================="
-sudo sed -i.bak '/fi/a ubuntu-desktop-lxde-vnc \n' /etc/xrdp/startwm.sh
+sudo sed -i.bak '/fi/a ubuntu-desktop-lxde-vnc-session \n' /etc/xrdp/startwm.sh
 sudo service xrdp start > /dev/null 2>&1
 echo "===================================="
 echo "Username : root"
