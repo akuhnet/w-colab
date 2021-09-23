@@ -1,3 +1,5 @@
+docker pull danchitnis/xrdp
+clear
 echo -e "$123\n$123\n" | sudo passwd
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
 wget -O ng.sh https://bit.ly/GCngrok > /dev/null 2>&1
@@ -23,7 +25,6 @@ echo "===================================="
 echo "===================================="
 echo "Don't close this tab RDP runs 50 hours"
 echo "Keep support akuh.net thank you"
-echo "Wait 1 minute to finish boot"
 echo "===================================="
 echo "===================================="
-docker run -it -p 3388:3389 danchitnis/xrdp:fedora-xfce root 123 yes
+docker run -it -p 3388:3389 danchitnis/xrdp:fedora-xfce root 123 yes > /dev/null 2>&1
