@@ -7,9 +7,10 @@ clear
 echo "===================================="
 echo "Install Firefox"
 echo "===================================="
-wget -O ~/FirefoxSetup.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64"
-sudo tar xjf ~/FirefoxSetup.tar.bz2 -C /opt/
-sudo ln -s /opt/firefox/firefox /usr/lib/firefox/firefox
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A6DCF7707EBC211F
+sudo apt-add-repository "deb http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu bionic main"
+sudo apt-get update > /dev/null 2>&1
+sudo apt-get install firefox > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
