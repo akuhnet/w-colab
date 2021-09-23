@@ -9,6 +9,19 @@ echo "================================"
 sudo apt-get install lxde -y
 clear
 echo "===================================="
+echo "Install Firefox"
+echo "===================================="
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A6DCF7707EBC211F
+sudo apt-add-repository "deb http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu bionic main"
+echo "===================================="
+echo "Update"
+echo "===================================="
+sudo apt-get update > /dev/null 2>&1
+echo "===================================="
+echo "Installing"
+echo "===================================="
+sudo apt-get install firefox -y > /dev/null 2>&1
+echo "===================================="
 echo "Install xrdp"
 echo "===================================="
 sudo apt install -y xrdp > /dev/null 2>&1
