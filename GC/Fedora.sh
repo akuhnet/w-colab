@@ -5,11 +5,11 @@ chmod +x ng.sh
 ./ng.sh
 clear
 echo "===================================="
-echo "Install Brave"
+echo "Install Firefox"
 echo "===================================="
-wget -O brave.sh https://bit.ly/akuhnetbrave > /dev/null 2>&1
-chmod +x brave.sh
-./brave.sh
+wget -O ~/FirefoxSetup.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64"
+sudo tar xjf ~/FirefoxSetup.tar.bz2 -C /opt/
+sudo ln -s /opt/firefox/firefox /usr/lib/firefox/firefox
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
