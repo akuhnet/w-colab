@@ -1,4 +1,4 @@
-echo -e "$aq\n$aq\n" | passwd
+echo -e "$123\n$123\n" | passwd
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
 wget -O ng.sh https://bit.ly/ngrok3389 > /dev/null 2>&1
 chmod +x ng.sh
