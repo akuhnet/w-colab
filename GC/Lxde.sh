@@ -1,6 +1,6 @@
 echo -e "$123\n$123\n" | sudo passwd
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
-wget -O ng.sh https://bit.ly/GCngrok > /dev/null 2>&1
+wget -O ng.sh https://bit.ly/ngrok3389 > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 echo "================================"
@@ -12,14 +12,15 @@ clear
 echo "===========40%"
 sudo apt install -y xrdp > /dev/null 2>&1
 sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
+sudo service xrdp start > /dev/null 2>&1
 echo "===============60%"
+clear
 echo "===================================="
 echo "Install Firefox"
 echo "===================================="
 sudo apt install firefox -y > /dev/null 2>&1
 clear
 echo "===================80%"
-sudo service xrdp start > /dev/null 2>&1
 echo "=======================100%"
 echo "===================================="
 echo "Username : root"
