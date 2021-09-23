@@ -17,9 +17,10 @@ sudo service xrdp start > /dev/null 2>&1
 echo "===================================="
 echo "Install Brave Browser"
 echo "===================================="
-sudo apt-get update
+sudo apt-get update > /dev/null 2>&1
 sudo apt install firefox -y > /dev/null 2>&1
 echo "===================80%"
+clear
 echo "=======================100%"
 echo "===================================="
 echo "Username : root"
