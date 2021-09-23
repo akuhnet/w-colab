@@ -22,7 +22,7 @@ echo "===================80%"
 echo "=======================100%"
 echo "===================================="
 echo "Username : root"
-echo "Username : aq"
+echo "Username : that you made yourself"
 echo "RDP Address:"
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "===================================="
