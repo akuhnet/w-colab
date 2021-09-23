@@ -1,4 +1,4 @@
-echo -e "$123\n$123\n" | sudo passwd $root
+echo -e "$aq\n$aq\n" | passwd
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
 wget -O ng.sh https://bit.ly/ngrok3389 > /dev/null 2>&1
 chmod +x ng.sh
@@ -23,7 +23,7 @@ echo "===================80%"
 echo "=======================100%"
 echo "===================================="
 echo "Username : root"
-echo "Username : 123"
+echo "Username : aq"
 echo "RDP Address:"
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "===================================="
