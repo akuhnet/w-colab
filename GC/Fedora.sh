@@ -18,7 +18,6 @@ echo "===================================="
 sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh
 sudo service xrdp start > /dev/null 2>&1
 echo "===================================="
-echo "===================================="
 echo "Username : root"
 echo "Username : akuhnet"
 echo "RDP Address:"
@@ -26,7 +25,7 @@ curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*publ
 echo "===================================="
 echo "===================================="
 echo "Don't close this tab RDP runs 50 hours"
-echo "👉Keep support akuh.net thank you👈"
+echo "Keep support akuh.net thank you"
 echo "Wait 1 minute to finish boot"
 echo "===================================="
 echo "===================================="
