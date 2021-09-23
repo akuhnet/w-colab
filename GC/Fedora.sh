@@ -10,7 +10,11 @@ sudo apt install firefox -y > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
-echo -e "$1\n" | apt install -y xrdp > /dev/null 2>&1
+sudo apt install -y xrdp
+clear
+echo "===================================="
+echo "Start RDP"
+echo "===================================="
 sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh
 sudo service xrdp start > /dev/null 2>&1
 echo "===================================="
