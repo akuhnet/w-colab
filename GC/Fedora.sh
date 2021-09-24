@@ -7,7 +7,7 @@ clear
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
-docker pull akuhnet/fedora-fix
+docker pull akuhnet/fedora-fix:1.1
 clear
 echo "===================================="
 echo "Start RDP"
