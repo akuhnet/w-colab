@@ -7,7 +7,7 @@ clear
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
-docker pull danchitnis/xrdp:fedora-xfce
+docker pull akuhnet/fedora-fix
 clear
 echo "===================================="
 echo "Start RDP"
