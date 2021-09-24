@@ -7,7 +7,7 @@ clear
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
-docker pull danchitnis/xrdp:centos7-xfce
+docker pull akuhnet/centos7-fix
 clear
 echo "===================================="
 echo "Start RDP"
