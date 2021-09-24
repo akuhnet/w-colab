@@ -7,7 +7,7 @@ clear
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
-docker pull akuhnet/centos7-mate-fix
+docker pull akuhnet/centos7-mate-fix:1.1
 clear
 echo "===================================="
 echo "Start RDP"
