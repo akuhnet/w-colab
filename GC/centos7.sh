@@ -1,5 +1,3 @@
-docker pull danchitnis/xrdp:centos7-xfce
-clear
 echo -e "$123\n$123\n" | sudo passwd
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
 wget -O ng.sh https://bit.ly/GCngrok > /dev/null 2>&1
@@ -9,13 +7,11 @@ clear
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
-sudo apt install -y xrdp
+docker pull danchitnis/xrdp:centos7-xfce
 clear
 echo "===================================="
 echo "Start RDP"
 echo "===================================="
-sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh
-sudo service xrdp start > /dev/null 2>&1
 echo "===================================="
 echo "Username : root"
 echo "Password : 123"
