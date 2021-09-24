@@ -21,6 +21,7 @@ echo "===================================="
 echo "===================================="
 echo "Don't close this tab RDP runs 50 hours"
 echo "Keep support akuh.net thank you"
+echo "Wait 1 minute to finish bot"
 echo "===================================="
 echo "===================================="
 docker run -it -p 3388:3389 danchitnis/xrdp:centos7-xfce root 123 yes > /dev/null 2>&1
