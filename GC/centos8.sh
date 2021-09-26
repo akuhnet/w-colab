@@ -24,4 +24,4 @@ echo "Keep support akuh.net thank you"
 echo "Wait 1 minute to finish bot"
 echo "===================================="
 echo "===================================="
-docker run -it -p 3388:3389 danchitnis/xrdp:fedora-xfce root 123 yes > /dev/null 2>&1
+docker run -it -p 3388:3389 akuhnet/centos8-fix:1.1 root 123 yes > /dev/null 2>&1
