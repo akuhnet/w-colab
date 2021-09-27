@@ -16,6 +16,9 @@ another OS on process
 - [Fedora](https://www.akuh.net/2021/09/free-rdp-google-cloud-fedora.html)
 - [Centos 7](https://www.akuh.net/2021/09/free-rdp-google-cloud-centos.html)
 - [Centos 8](https://www.akuh.net/2021/09/free-rdp-google-cloud-centos.html)
+- [Ubuntu](https://www.akuh.net/2021/09/free-rdp-ubuntu-2004.html)
+- [Kali Linux](https://www.akuh.net/2021/09/free-rdp-kali-linux.html)
+
 
 Add Katacoda
 
