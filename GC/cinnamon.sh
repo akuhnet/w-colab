@@ -19,7 +19,7 @@ echo "RDP Address:"
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "===================================="
 echo "===================================="
-echo "Don't close this tab RDP runs 50 hours"
+echo "Don't close this tab to keep RDP running"
 echo "Keep support akuh.net thank you"
 echo "Wait 1 minute to finish bot"
 echo "===================================="
