@@ -11,8 +11,6 @@ Don't close tab colab to keep rdp running 12 hours
 ###
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=16D400&size=25&width=770&lines=Free+RDP+Google+Cloud)](https://git.io/typing-svg)
 
-Update Google Cloud + Docker, Just Connect it with remote desktop connection,
-another OS on process
 - [Fedora](https://www.akuh.net/2021/09/free-rdp-google-cloud-fedora.html)
 - [Centos 7](https://www.akuh.net/2021/09/free-rdp-google-cloud-centos.html)
 - [Centos 8](https://www.akuh.net/2021/09/free-rdp-google-cloud-centos.html)
