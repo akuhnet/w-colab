@@ -27,10 +27,6 @@
 - [Kali Linux](https://www.akuh.net/2021/09/free-rdp-kali-linux.html)
 
 
-Add Katacoda
-
-![](https://1.bp.blogspot.com/-PhecerKh-8M/YVARPcEH_oI/AAAAAAAAECg/jJ-n7C1XtxMNQzBU6231VKwbtUSpS5m3wCLcBGAsYHQ/s894/free%2B4h.jpg)
-
 ###
 ![](https://1.bp.blogspot.com/-y9Y3RURi3wg/YUSbxRPX4gI/AAAAAAAAD6w/Mcfb5Mm_64cJ2XffBHUYTRSix8QDOAu4ACLcBGAsYHQ/s0/RDP%2BColab%2B%25281%2529.gif)
 Don't close tab colab to keep rdp running 12 hours
@@ -40,7 +36,7 @@ Don't close tab colab to keep rdp running 12 hours
 1. [__Google Colab RDP__](https://www.akuh.net/2021/08/free-rdp-colab.htm)
 1. [__Google Colab VNC__](https://www.akuh.net/2021/06/lifetime-google-colaboratory.html)
 1. [__Free Rdp Google Cloud__](https://www.akuh.net/2021/05/vps-google-cloud-free-lifetime-update.html)
-2. [__Free RDP 30 Day__](https://www.akuh.net/2021/10/free-rdp-30-day-trial-microsoft-365.html)
+2. [__Free RDP Windows 60 Day__](https://www.akuh.net/2021/10/free-rdp-30-day-trial-microsoft-365.html)
 3. [__Other free vps__](https://www.akuh.net/search/label/Vps)
 
 ###
