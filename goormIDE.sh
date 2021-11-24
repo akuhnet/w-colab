@@ -1,6 +1,7 @@
 sudo adduser akuhnet --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
 echo "akuhnet:123" | sudo chpasswd
 sudo usermod -aG sudo,adm akuhnet
+apt update
 clear
 echo "===================================="
 echo "Install XFCE"
