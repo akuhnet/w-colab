@@ -5,6 +5,7 @@ apt update
 clear
 echo "===================================="
 echo "Install XFCE"
+echo "Choose Keyboard 31 then 1"
 echo "===================================="
 sudo apt install -y xfce4 xfce4-goodies > /dev/null 2>&1
 echo "=======25%"
