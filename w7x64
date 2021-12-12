@@ -10,8 +10,8 @@ unzip ngrok-stable-linux-amd64.zip &>/dev/null &
 unzip ngrok-stable-linux-amd64.zip1 &>/dev/null &
 read -p "Ctrl + V Authtoken: " CRP 
 ./ngrok authtoken $CRP 
-nohup ./ngrok tcp 3388 &>/dev/null &
-./ngrok tcp 3388 &>/dev/null &
+nohup ./ngrok tcp 3389 &>/dev/null &
+./ngrok tcp 3389 &>/dev/null &
 echo "===================================="
 echo Downloading File From akuh.net
 echo "===================================="
