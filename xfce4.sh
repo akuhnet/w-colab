@@ -16,8 +16,9 @@ sudo apt-get install -y xarchiver
 sudo apt-get install libtxc-dxtn-s2tc0
 sudo apt-get install mesa-utils
 sudo apt-get install winff -y
-sudo apt-get install -y xrdp
+
 sudo apt-get install mate-core mate-desktop-environment mate-notification-daemon -y
 sudo sed -i.bak '/fi/a #xrdp multiple users configuration \n mate-session \n' /etc/xrdp/startwm.sh
-sudo service xrdp start
-python '/home/user/Desktop/eeeeq.py'
+
+wget https://github.com/Omaromar2255/w-colab/edit/main/mountdrive.py
+python '/mountdrive.py'
