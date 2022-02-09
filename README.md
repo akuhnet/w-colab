@@ -36,7 +36,7 @@ Don't close tab colab to keep rdp running 12 hours
 1. [__Google Colab RDP__](https://www.akuh.net/2021/08/free-rdp-colab.htm)
 1. [__Google Colab VNC__](https://www.akuh.net/2021/06/lifetime-google-colaboratory.html)
 1. [__Free Rdp Google Cloud__](https://www.akuh.net/2021/05/vps-google-cloud-free-lifetime-update.html)
-2. [__Groom IDE__](https://www.akuh.net/2021/11/free-vps-groom.html)
+2. [__Colab SSH with GPU__](https://github.com/akuhnet/Colab-SSH)
 3. [__Other free vps__](https://www.akuh.net/search/label/Vps)
 
 ###
