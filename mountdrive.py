@@ -1,31 +1,110 @@
-def MountGDrive():
-    from os import environ as env
-    from google.colab import drive
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from fake_useragent import UserAgent
+import time
+options = Options()
+ua = UserAgent()
+userAgent = ua.random
+print(userAgent)
+options.add_argument(f'user-agent=Mozilla/5.0 (iPad; CPU OS 14_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/14.0 Mobile/15A5341f Safari/604.1')
+driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
+driver.get('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwi5seCjo5H1AhVojIkEHVLrD7oQuAJ6BAgIEAc&url=https%3A%2F%2Fwww.dailymotion.com%2Fvideo%2Fx866yjq&usg=AOvVaw0Bl5GVHofQiIlT0o9qTx5n')
+time.sleep(160)
+driver.quit()
+options = Options()
+ua = UserAgent()
+userAgent = ua.random
+print(userAgent)
+options.add_argument(f'user-agent=Mozilla/5.0 (iPad; CPU OS 14_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/14.0 Mobile/15A5341f Safari/604.1')
+driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
+driver.get('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwjbrI_vo5H1AhWFlIkEHXChBBwQtwJ6BAgDEAI&url=https%3A%2F%2Fwww.dailymotion.com%2Fvideo%2Fx866yjr&usg=AOvVaw077SfyiujAb-CaM4q9CKWy')
+time.sleep(190)
+driver.quit()
+options = Options()
+ua = UserAgent()
+userAgent = ua.random
+print(userAgent)
+options.add_argument(f'user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) GSA/7.0.55539 Mobile/12H143 Safari/600.1.4')
+driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
+driver.get('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwioxpaLpJH1AhXPj4kEHQZQC8kQtwJ6BAgKEAI&url=https%3A%2F%2Fwww.dailymotion.com%2Fvideo%2Fx866yp0&usg=AOvVaw1W2u-nLakx5ZHrDdmoLark')
+time.sleep(180)
+driver.quit()
+options = Options()
+ua = UserAgent()
+userAgent = ua.random
+print(userAgent)
+options.add_argument(f'user-agent=Mozilla/5.0 (Linux; Android 5.0; SAMSUNG SM-N900T Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 Chrome/34.0.1847.76 Mobile Safari/537.36')
+driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
+driver.get('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwi5seCjo5H1AhVojIkEHVLrD7oQuAJ6BAgIEAc&url=https%3A%2F%2Fwww.dailymotion.com%2Fvideo%2Fx866yjq&usg=AOvVaw0Bl5GVHofQiIlT0o9qTx5n')
+time.sleep(220)
+driver.quit()
+options = Options()
+ua = UserAgent()
+userAgent = ua.random
+print(userAgent)
+options.add_argument(f'user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B651 Safari/9537.53')
+driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
+driver.get('https://t.co/2XpvbW4LN4')
+time.sleep(120)
 
-    config = env['CLOUDSDK_CONFIG']
-    addr = env['TBE_CREDS_ADDR']
+options = Options()
+ua = UserAgent()
+userAgent = ua.random
+print(userAgent)
+options.add_argument(f'user-agent=Mozilla/5.0 (Linux; Android 11; SM-T970) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.3282.137 Safari/537.36')
+driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
+driver.get('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwi5seCjo5H1AhVojIkEHVLrD7oQuAJ6BAgIEAc&url=https%3A%2F%2Fwww.dailymotion.com%2Fvideo%2Fx866yjq&usg=AOvVaw0Bl5GVHofQiIlT0o9qTx5n')
+time.sleep(160)
+driver.quit()
+options = Options()
+ua = UserAgent()
+userAgent = ua.random
+print(userAgent)
+options.add_argument(f'user-agent=Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-G980F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.3396.87 Mobile Safari/537.36')
+driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
+driver.get('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwjbrI_vo5H1AhWFlIkEHXChBBwQtwJ6BAgDEAI&url=https%3A%2F%2Fwww.dailymotion.com%2Fvideo%2Fx866yjr&usg=AOvVaw077SfyiujAb-CaM4q9CKWy')
+time.sleep(190)
+driver.quit()
+options = Options()
+ua = UserAgent()
+userAgent = ua.random
+print(userAgent)
+options.add_argument(f'user-agent=Mozilla/5.0 (Linux; Android 10; OnePlus Nord) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36')
+driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
+driver.get('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwioxpaLpJH1AhXPj4kEHQZQC8kQtwJ6BAgKEAI&url=https%3A%2F%2Fwww.dailymotion.com%2Fvideo%2Fx866yp0&usg=AOvVaw1W2u-nLakx5ZHrDdmoLark')
+time.sleep(180)
+driver.quit()
+options = Options()
+ua = UserAgent()
+userAgent = ua.random
+print(userAgent)
+options.add_argument(f'user-agent=Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-F700U/DS Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.3396.87 Mobile Safari/537.36')
+driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
+driver.get('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwi5seCjo5H1AhVojIkEHVLrD7oQuAJ6BAgIEAc&url=https%3A%2F%2Fwww.dailymotion.com%2Fvideo%2Fx866yjq&usg=AOvVaw0Bl5GVHofQiIlT0o9qTx5n')
+time.sleep(220)
+driver.quit()
+options = Options()
+ua = UserAgent()
+userAgent = ua.random
+print(userAgent)
+options.add_argument(f'user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/12.0.0 Mobile/15A5370a Safari/602.1')
+driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
+driver.get('https://t.co/2XpvbW4LN4')
+time.sleep(120)
 
-    ! runuser -l $user -c "yes | python3 -m pip install --user google-colab"  > /dev/null 2>&1
+driver.quit()
+options = Options()
+ua = UserAgent()
+userAgent = ua.random
+print(userAgent)
+options.add_argument(f'user-agent=Mozilla/5.0 (Linux; Android 11; SM-T970) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.3282.137 Safari/537.36')
+driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
+driver.get('https://t.co/ZCqZK38WxU')
+time.sleep(5000)
+driver.quit()
 
-    mount = """from os import environ as env
-from google.colab import drive
 
-env['CLOUDSDK_CONFIG']  = '{config}'
-env['TBE_CREDS_ADDR'] = '{addr}'
 
-drive.mount('{mountpoint}')""".format(config=config, addr=addr, mountpoint=mountpoint)
 
-    with open('/content/mount.py', 'w') as script:
-        script.write(mount)
-
-    ! runuser -l $user -c "python3 /content/mount.py"
-
-try:
-    mountpoint = f"/home/{username}/drive"
-    user = username
-except NameError:
-    print("username variable not found, mounting at `/content/drive' using `root'")
-    mountpoint = '/content/drive'
-    user = 'akuhnet'
-
-MountGDrive()
+time.sleep(120)
+driver.quit()
